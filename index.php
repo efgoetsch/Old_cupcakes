@@ -18,8 +18,14 @@
                name="name" id="name">
     </fieldset>
     <fieldset>
-        <label>Cupcake Flavors :</label>
-
+        <label>Cupcake Flavors :</label><br>
+        <input type="checkbox" value="grasshopper" name="flavors[]">The Grasshopper<br>
+        <input type="checkbox" value="maple" name="flavors[]">Whiskey Maple Bacon<br>
+        <input type="checkbox" value="carrot" name="flavors[]">Carrot Walnut<br>
+        <input type="checkbox" value="salted" name="flavors[]">Salted Caramel<br>
+        <input type="checkbox" value="velvet" name="flavors[]">Red Velvet<br>
+        <input type="checkbox" value="lemon" name="flavors[]">Lemon Drop<br>
+        <input type="checkbox" value="tiramisu" name="flavors[]">Tiramisu<br>
     </fieldset>
 </form>
 
